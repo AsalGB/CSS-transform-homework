@@ -1,4 +1,4 @@
-.container1 {
+.container {
     display: flex;
     padding: 10px;
     margin-top: 50px;
@@ -14,10 +14,19 @@ section > div {
     position: relative;
 }
 
+.bc {
+    width: 150px;
+    height: 150px;
+    background-color: #45454a;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
 .box1 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
@@ -31,21 +40,21 @@ section > div {
 .box2 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box2:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: scaleY(0.5);
 }
 
 .box3 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
@@ -53,7 +62,7 @@ section > div {
 
 
 .box3:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: scalex(0.5);
 }
 
@@ -61,7 +70,7 @@ section > div {
 .box4 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
@@ -70,76 +79,76 @@ section > div {
 
 .box4:hover {
     transform: scale(1.5);
-    transition: all 2s ease-in-out;
+    transition: all 1s ease-in-out;
 }
 
 .box5 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box5:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: scalex(1.6);
 }
 
 .box6 {
     width: 150px;
     height: 150px;
-    background-color: #67729d;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box6:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: scaley(1.5);
 }
 
 .box7 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box7:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: skewX(45deg);
 }
 
 .box8 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box8:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: skewy(45deg);
 }
 
 .box9 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box9:hover {
-    transition:all 2s ease-in-out;
+    transition:all 1s ease-in-out;
     transform: translate(50px,25px);
 }
 
@@ -147,13 +156,272 @@ section > div {
 .box10 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729da0;
     position: absolute;
     top: 25px;
     left: 50px;
 }
 
 .box10:hover {
-    transition:all 2s ease-in-out;
-    transform: translate(50px)
+    transition:all 1s ease-in-out;
+    transform: translate(70px)
+}
+
+
+.container2 {
+    display: flex;
+    padding: 10px;
+    margin-top: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.box11 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+
+.box11:hover {
+    transition:all 1s ease-in-out;
+    transform: translatey(80px);
+}
+
+
+.gap {
+    width:100%;
+    height: 0;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box12 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box12:hover {
+    transition:all 1s ease-in-out;
+    transform: scale(1.5, 1.5) skew(0deg, 45deg);
+}
+
+.box13 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box13:hover {
+    transition:all 1s ease-in-out;
+    transform: perspective(150px) rotateX(45deg);
+}
+
+.box14 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box14:hover {
+    transition:all 1s ease-in-out;
+    transform: perspective(150px) rotateY(45deg);
+}
+
+.box15 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+
+.box15:hover {
+    transition:all 1s ease-out;
+    transform:rotate(45deg);
+    transform-origin: top right;
+}
+
+.box16 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box16:hover {
+    transition:all 1s ease-out;
+    transform:rotate(45deg);
+    transform-origin: bottom left;
+}
+
+
+.box17 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box17:hover {
+    transition:all 1s ease-out;
+    transform-origin: bottom;
+    transform: perspective(150px) rotateX(25deg);
+}
+
+.box18 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box18:hover {
+    transition:all 1s ease-out;
+    transform-origin: top;
+    transform: perspective(300px) rotateX(65deg);
+}
+
+.box19 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box19:hover {
+    transition:all 1s ease-out;
+    transform-origin: left;
+    transform: perspective(300px) rotatey(45deg);
+}
+
+.box20 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box20:hover {
+    transition:all 1s ease-out;
+    transform-origin: right;
+    transform: perspective(300px) rotatey(55deg);
+}
+
+.box21 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box21:hover {
+    transition:all 1s ease-out;
+    transform-origin: top right;
+    transform: scale(1.7, 1.7)
+}
+
+.box22 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box22:hover {
+    transition:all 1s ease-out;
+    transform-origin: bottom left;
+    transform: scale(1.7, 1.7)
+}
+
+.box23 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box23:hover {
+    transition:all 1s ease-out;
+    transform-origin: right;
+    transform: scale(2, 1)
+}
+
+.box24 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box24:hover {
+    transition:all 1s ease-out;
+    transform-origin: left;
+    transform: scale(2,1)
+}
+
+.box25 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box25:hover {
+    transition:all 1s ease-out;
+    transform-origin: top;
+    transform: scale(1,2)
+}
+
+.box26 {
+    width: 150px;
+    height: 150px;
+    background-color: #67729da0;
+    position: absolute;
+    top: 25px;
+    left: 50px;
+}
+
+.box26:hover {
+    transition:all 1s ease-out;
+    transform-origin: bottom;
+    transform: scale(1,2)
 }
