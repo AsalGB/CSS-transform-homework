@@ -51,6 +51,13 @@ section > div {
     left: 50px;
 }
 
+
+.box3:hover {
+    transition:all 2s ease-in-out;
+    transform: scalex(0.5);
+}
+
+
 .box4 {
     width: 150px;
     height: 150px;
@@ -75,13 +82,23 @@ section > div {
     left: 50px;
 }
 
+.box5:hover {
+    transition:all 2s ease-in-out;
+    transform: scalex(1.6);
+}
+
 .box6 {
     width: 150px;
     height: 150px;
-    background-color: #67729D;
+    background-color: #67729d;
     position: absolute;
     top: 25px;
     left: 50px;
+}
+
+.box6:hover {
+    transition:all 2s ease-in-out;
+    transform: scaley(1.5);
 }
 
 .box7 {
@@ -93,6 +110,11 @@ section > div {
     left: 50px;
 }
 
+.box7:hover {
+    transition:all 2s ease-in-out;
+    transform: skewX(45deg);
+}
+
 .box8 {
     width: 150px;
     height: 150px;
@@ -100,6 +122,11 @@ section > div {
     position: absolute;
     top: 25px;
     left: 50px;
+}
+
+.box8:hover {
+    transition:all 2s ease-in-out;
+    transform: skewy(45deg);
 }
 
 .box9 {
@@ -111,6 +138,11 @@ section > div {
     left: 50px;
 }
 
+.box9:hover {
+    transition:all 2s ease-in-out;
+    transform: translate(50px,25px);
+}
+
 
 .box10 {
     width: 150px;
@@ -119,4 +151,9 @@ section > div {
     position: absolute;
     top: 25px;
     left: 50px;
+}
+
+.box10:hover {
+    transition:all 2s ease-in-out;
+    transform: translate(50px)
 }
